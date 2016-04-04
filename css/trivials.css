@@ -1,0 +1,147 @@
+@font-face {
+	font-family: "OpenSans";
+	src: url("../fonts/open-sans/OpenSans-Regular.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "OpenSans";
+	src: url("../fonts/open-sans/OpenSans-Bold.ttf");
+	font-weight: bold;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+	color: #fff;
+	background-color: #49a078;
+	font-size: 14px;
+	font-family: "OpenSans", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+main {
+	position: relative;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    main {
+		padding-left: 15px;
+		padding-right: 15px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main {
+		padding-left: 5%;
+		padding-right: 5%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+		padding-left: 10%;
+		padding-right: 10%;
+    }
+}
+
+header,
+footer {
+	position: relative;
+	text-align: center;
+}
+
+header {
+	margin-bottom: 4em;
+	padding: 5em 0;
+	background-color: #2e6466;
+	border-bottom: 8px solid #fff;
+}
+
+header > h1 {
+	letter-spacing: 3vw;
+	text-transform: uppercase;
+}
+
+header > h2 {
+	margin: 0.8em 0 0;
+	opacity: 0.6;
+	letter-spacing: 0.5vw;
+}
+
+footer {
+	margin-top: 4em;
+	padding: 0.5em;
+	background-color: #163233;
+	border-top: 4px solid #fff;
+}
+
+footer > a {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: inherit;
+	font-weight: bold;
+	color: inherit;
+}
+
+h1, h2 {
+	margin: 0;
+}
+
+h3, h4 {
+	margin-top: 1em;
+	margin-bottom: 0.25em;
+}
+
+h1 {
+	font-size: 400%;
+}
+
+h2 {
+	font-size: 180%;
+}
+
+h3 {
+	font-size: 140%;
+}
+
+p {
+	line-height: 1.42857143em;
+	margin-top: 0.25em;
+	margin-bottom: 1em;
+}
+
+p:first-child {
+	margin-top: 0;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+a {
+	color: #ccc;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	color: inherit;
+}
+
+.hidden {
+	display: none;
+}
