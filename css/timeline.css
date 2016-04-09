@@ -76,10 +76,16 @@
 	background-color: #3962b0;
 }
 .timeline_event_bubble {
+	z-index: -10;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	position: relative;
 	color: #3962b0;
 	-webkit-justify-content: flex-end;
 	justify-content: flex-end;
-	margin-left: 10%;
+	margin-left: 5%%;
 	
 }
 
