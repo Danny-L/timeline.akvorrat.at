@@ -96,7 +96,7 @@ header > h1 {
 }
 
 header > h2 {
-	margin: 0.5em 0 0;
+	margin: 0.5em 0 0.1em;
 	opacity: 0.6;
 	letter-spacing: 0.5vw;
 	color: #241f21;
