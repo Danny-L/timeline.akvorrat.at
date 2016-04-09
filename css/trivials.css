@@ -34,6 +34,11 @@ body {
 	font-family: "OpenSans", "Satellite", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
+header {
+	font-family: "Satellite";
+	color: #3962b0;
+}
+
 main {
 	position: relative;
 	padding-left: 5px;
@@ -79,7 +84,7 @@ header {
 }
 
 header > h1 {
-	font-family: "Satellite";
+	font: "Satellite";
 	letter-spacing: 3vw;
 	text-transform: uppercase;
 	color: #3962b0;
