@@ -14,6 +14,7 @@
 
 @font-face {
 	font-family: "Satellite";
+	font-color: #3962b0;
 	src: url("../fonts/Satellite/Satellite-Oblique.otf");
 }
 
@@ -28,7 +29,7 @@ html {
 
 body {
 	color: #fff;
-	background-color: #49a078;
+	background-color: #fff;
 	font-size: 14px;
 	font-family: "OpenSans", "Helvetica Neue", "Helvetica", sans-serif;
 }
