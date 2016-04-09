@@ -86,7 +86,7 @@ header {
 header > h1 {
 	font: "Satellite";
 	margin: 0.5em 0 0;
-	letter-spacing: 0,2vw;
+	letter-spacing: 0vw;
 	color: #3393d1;
     	text-shadow:  1px  1px 0px #fff,
                   1px -1px 0px #fff,
@@ -105,7 +105,7 @@ header > h2 {
 footer {
 	margin-top: 4em;
 	padding: 0.5em;
-	background-color: #163233;
+	background-color: #3962b0;
 	border-top: 4px solid #fff;
 }
 
