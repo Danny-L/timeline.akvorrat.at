@@ -85,7 +85,7 @@ header {
 
 header > h1 {
 	font: "Satellite";
-	font-size: 80%;
+	margin: 0.5em 0 0;
 	letter-spacing: 0,2vw;
 	color: #3393d1;
     	text-shadow:  1px  1px 0px #fff,
