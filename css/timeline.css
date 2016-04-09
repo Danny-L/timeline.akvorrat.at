@@ -132,8 +132,15 @@
 
 .timeline_event_body {
 	padding: 1em;
-	background-color: #888988;
+	background: #757574; /* Old browsers */
+	background: -moz-linear-gradient(top, #757574 0%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #757574 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #757574 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757574', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 	overflow: hidden;
+	-webkit-border-radius: 10%x;
+	-moz-border-radius: 10%;
+	border-radius: 10%;
 }
 
 .timeline_event_body > p {
