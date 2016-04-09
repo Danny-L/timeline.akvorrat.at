@@ -6,7 +6,7 @@
 	left: -8px;
 	margin-top: -4em;
 	margin-bottom: -4em;
-	border-right: 16px solid #fff;
+	border-right: 16px solid #3962b0;
 }
 
 @media screen and (min-width: 992px) {
@@ -27,7 +27,7 @@
 	width: 70%;
 	margin-top: 1em;
 	margin-bottom: 1em;
-	color: #173233;
+	color: #3962b0;
 }
 
 .timeline_event:nth-child(odd) {
