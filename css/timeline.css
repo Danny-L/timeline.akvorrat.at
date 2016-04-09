@@ -75,6 +75,13 @@
 	color: #fff;
 	background-color: #3962b0;
 }
+.timeline_event_bubble {
+	color: #3962b0;
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+	margin-left: 10%;
+	
+}
 
 .timeline_event_date {
 	z-index: -10;
