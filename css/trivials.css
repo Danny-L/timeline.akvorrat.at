@@ -12,6 +12,11 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: "Satellite";
+	src: url("../fonts/Satellite/Satellite-Oblique.otf");
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -64,13 +69,19 @@ footer {
 header {
 	margin-bottom: 4em;
 	padding: 5em 0;
-	background-color: #2e6466;
-	border-bottom: 8px solid #fff;
+	background-color: #3962b0;
+	background: -moz-linear-gradient(top, #2fb3e7 0%, #3962b0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #2fb3e7 0%,#3962b0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #2fb3e7 0%,#3962b0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2fb3e7', endColorstr='#3962b0',GradientType=0 ); /* IE6-9 */
+	border-bottom: 2px solid #fff;
 }
 
 header > h1 {
 	letter-spacing: 3vw;
 	text-transform: uppercase;
+	color: white;
+    	text-shadow: 0 0 5px black;
 }
 
 header > h2 {
