@@ -85,8 +85,7 @@ header {
 
 header > h1 {
 	font: "Satellite";
-	letter-spacing: 3vw;
-	text-transform: uppercase;
+	letter-spacing: 1vw;
 	color: #3962b0;
     	text-shadow:  1px  1px 0px #fff,
                   1px -1px 0px #fff,
@@ -99,6 +98,7 @@ header > h2 {
 	margin: 0.8em 0 0;
 	opacity: 0.6;
 	letter-spacing: 0.5vw;
+	color: #3393d1;
 }
 
 footer {
