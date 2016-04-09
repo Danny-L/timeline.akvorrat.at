@@ -81,8 +81,9 @@ header {
 header > h1 {
 	letter-spacing: 3vw;
 	text-transform: uppercase;
-	color: white;
+	color: #2fb3e7;
     	text-shadow: 0 0 5px black;
+    	font: "Satellite";
 }
 
 header > h2 {
