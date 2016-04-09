@@ -77,7 +77,7 @@
 	boarder-radius: 25%;
 }
 .timeline_event_bubble {
-		z-index: -10;
+	z-index: -10;
 	display: -webkit-flex;
 	display: flex;
 	-webkit-align-items: center;
@@ -87,7 +87,7 @@
 	height: 100%;
 	top: 0;
 	text-transform: uppercase;
-	background-color: #2fb3e7;
+	background-color: #f00;
 	
 }
 
